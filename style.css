@@ -1,0 +1,433 @@
+*{
+	
+	font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+hr{
+	padding-top: 0.2rem;
+}
+header{
+	background-image:url(images/banner-bg.png);
+}
+nav{
+	display: flex;
+	height: 4rem;
+/*	background: red*/
+}
+
+.navbar-logo img{
+ margin: 1rem;
+}
+
+nav ul{
+ margin-left: 5.5rem;
+}
+nav ul li{
+	margin: 0 1.7rem;
+	display: inline-block;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.5rem;
+	line-height: 4rem;
+}
+/*##################*/
+.active{
+	color:black;
+}
+nav ul li a:hover{
+	list-style: underline;
+	color: black;
+}
+.navbar-btn{
+   line-height: 4rem;
+   margin-left: 2rem;
+}
+.navbar-btn button{
+	padding: 0.7rem;
+	border-radius: 10px;
+/*	background: red;*/
+	border: 0.125rem solid white;
+	font-size: 1rem;
+	cursor: pointer;
+}
+.navbar-icon{
+	margin:0.5rem 2rem;
+}
+.navbar-icon span img{
+   padding: 1rem;
+}
+#slider{
+	margin-top: 9rem;
+	max-width: 90%;
+	margin: 0 auto;
+/*	background: red;*/
+	display: flex;
+/*	min-height: fit-content;*/
+}
+.slider-text{
+	padding: 3.5rem 0 0 2rem;
+}
+.slider-text h2{
+	color: white;
+	font-size: 3.5rem;
+
+}
+.slider-text p{
+	color: white;
+	padding-top: 2rem;
+	font-size: 1.2rem;
+	padding-bottom: 3rem;
+}
+.slider-img{
+	padding: 3rem;
+	position: relative;
+	top: 4rem;
+}
+.slider-btn button{
+	background: black;
+	color: white;
+	padding: 0.8rem 3rem;
+	border-radius: 2rem;
+	cursor: pointer;
+}
+.slider-btn button:hover{
+   color: black;
+   background-color: white;
+  transition: 3s;
+}
+#topscroll{
+	height: 70px;
+	width: 70px;
+	border: none;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	position: fixed;
+	top: 88%;
+	left: 94%;
+	z-index: 1;
+}
+#topscroll:hover{
+   background-color: hotpink;
+   transition: 3s;
+}
+.item-card{
+	padding-top: 8rem;
+	max-width: 90%;
+	margin: 0 auto;
+	display: flex;
+	gap: 2.3rem;
+}
+/*.item-card::before{
+	counter-increment:scroll-snap-destination: ;
+	content:"number";
+}*/
+.item-card div{
+		background:black;
+}
+.item-card-1 img{
+	padding-left: 10rem;
+	padding-top: 2rem;
+	background-clip: white;
+}
+.item-card-1 h3{
+	color: white;
+	font-size: 2rem;
+    margin-left: 7rem;
+    padding-top: 2rem;
+/*    font-weight: bold;*/
+}
+.item-card-1 p{
+	font-size: 1.5rem;
+	padding: 2rem; 
+	color: white;
+}
+#item-card-2{
+	background: white;
+}
+#item-card-2 h3{
+	color: black;
+}
+#item-card-2 p{
+   color: black;
+}
+#main-zone{
+	height: fit-content;
+	background-image: url(images/about-bg.png);
+   background-size: cover;
+   display: flex;
+}
+
+.main-zone-img{
+	margin: 5rem;
+}
+.main-zone-img img{
+    height: 70vh;
+    width: 36vw
+}
+.main-zone-text{
+	margin-top: 8rem;
+	padding: 3rem;
+}
+.main-zone-text h2{
+	font-size: 2rem;
+	font-weight: 600;
+}
+.main-zone-text h5{
+	padding-top: 2.5rem;
+	font-size: 1rem;
+	font-weight: 100;
+}
+.main-zone-spn{
+	margin-top: 4rem;
+}
+.main-zone-spn1,.main-zone-spn2{
+	margin-top: 10rem;
+	padding: 1.5rem 4rem;
+	background: red;
+	font-size: 1rem;
+	font-weight: 100;
+	color: white;
+}
+.main-zone-spn2{
+	color: white;
+	background: black;
+}
+#our-plan{
+	background-image: url(images/product-bg.png);
+	background-size: cover;
+}
+.Tariffs-card{
+	display: flex;
+	grid-gap: 4rem;
+}
+.our-plan-center{
+	max-width: 80%;
+	margin: 0 auto;
+}
+.our-plan-division h3{
+	color: red;
+	padding-top: 2rem;
+	font-size: 1.6rem;
+
+}
+.our-plan-division h2{
+	font-size: 2rem;
+	color: white;
+/*	padding: 1rem 0rem;*/
+}
+.our-plan-division h6{
+	font-size: 1rem;
+	font-weight: 100;
+	color: white;
+}
+.Tariffs-card-1{
+	margin-top: 2rem;
+	background: gainsboro;
+}
+.Tariffs-card-1 h2{
+ color: black;
+ padding-top: 1.6rem;
+ padding-left: 3rem;
+ font-size: 1.5rem;
+ font-weight: 300;
+}
+.Tariffs-card-1 h3{
+ color: white;
+ margin-top: 1rem;
+ padding-left: 5rem;
+ background-color: red;
+ font-size: 1.5rem;
+}
+.Tariffs-card-1 h4{
+ color:red;
+ margin-top: 1rem;
+ padding-left:5rem;
+ font-size: 2rem;
+}
+.Tariffs-card-1 h5{
+ color: black;
+ padding-left:6rem;
+ font-size: 2rem;
+}
+.Tariffs-card-1 p{
+ color: black;
+ margin: 0.5rem 2rem;
+}
+.Tariffs-card button{
+	padding:8px 20px;
+/*	margin-left:6rem;*/
+   border-radius: 10px;
+	margin:1rem 1rem 2rem 6rem;
+}
+.map-section{
+	background-image: url(images/map-bg.png);
+	background-size: cover;
+}
+.map-section h2{
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 600;
+	padding-top: 4rem;
+	margin-bottom: 3rem;
+}
+/*jndfvnf*========================*/
+.input-box{
+/*	max-width: 90%;*/
+/*	margin: 0 auto;*/
+margin-left: 2rem;
+	background-image: url(images/input-bg.png);
+	background-repeat: no-repeat;
+	margin-bottom: 3rem;
+}
+.input-box h4{
+	font-size: 1rem;
+	padding-top: 7rem;
+	font-weight: 100;
+	text-align: center;
+	color: white;
+}
+.input-box input{
+	border: 2px solid black;
+	margin-top: 5rem;
+	margin-left: 15rem;
+	border-radius: 4px;
+	padding:1rem 14rem;
+	border-radius: 4rem;
+	margin-bottom: 12rem;
+	outline: none;
+}
+.input-box input[type=text]{
+	font-size: 1rem;
+	text-transform: capitalize;
+}
+.input-box button{
+    position:relative;
+    left: -12%;
+    border: 1px solid black;
+    border-radius: 9px;
+    background: black;
+    color: white;
+    text-transform: capitalize;
+    padding: 0.5rem 1.5rem;
+
+}
+.brack-line{
+/*   position: relative;
+   top: 4rem;*/
+	max-width: 80%;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+.custmor-rewive ,.sucribe{ 
+    width: min(100% - 1em,60em );  /*new proparyt*/
+	margin-inline: auto;
+}
+.custmor-rewive h2{
+font-size: 3rem;
+margin-top: 4rem;
+font-weight: 600;
+text-align: center;
+}
+.our-client{
+	display: flex;
+}
+.our-client-1{
+	padding: 2rem;
+}
+.our-client-2{
+	margin-left: 3rem;
+	margin-top: 3rem;
+}
+.our-client-2-spn-2{
+	float: right;
+}
+.our-client-2 h4{
+	padding-right: 3rem;
+	padding-top: 2rem;
+	font-weight: 200;
+}
+.sucribe-bg{
+	background: red;
+}
+.sucribe{
+   width: min(100% - 1em,60em );  /*new proparyt*/
+	margin-inline: auto;	
+}
+.sucribre-center{
+	display: flex;
+}
+.sucribre-center h3{
+	padding: 1rem;
+	color: white;
+	font-size: 1.4rem;
+	font-weight: 600;
+}
+.sucribre-center input{
+	margin-top: 0.6rem;
+	border-radius: 10px;
+	margin-left: 7rem;
+	padding: 0.8rem 9rem;
+}
+.sucribre-center button{
+	border-radius: 10px;
+	background: black;
+	color: white;
+	padding: 0.6rem;
+	margin-left: 3rem;
+}
+.sucribre-center button:hover{
+	background: white;
+	color: black;
+}
+footer{
+	background:rgba(0, 0, 0, 0.6);
+	color: white;
+}
+.footer-auto{
+  width: min(100% - 1em,75em );  /*new proparyt*/
+	margin-inline: auto;
+	padding-bottom: 5rem;	
+}
+.footer-menu{
+	display: flex;
+	padding-top: 3rem;
+	gap: 1rem;
+}
+.footer-menu-1 img{
+    padding: 1rem;
+}
+.footer-menu-1 h3,.footer-menu-2 h3, .footer-menu-3 h3,.footer-menu-4 h3{
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+.footer-menu-1 p,.footer-menu-2 p,.footer-menu-4 p {
+	padding: 1rem;
+	font-size: 1.2rem;
+	font-weight: 200;
+}
+.footer-menu-3 p{
+	padding: 5px;
+	margin-left: 1.5rem;
+	font-size: 1rem;
+}
+.footer-menu-4 ul li{
+	list-style: none;
+	display: inline-block;
+}
+.footer-menu-4 ul li a{
+	padding: 0.6rem;
+	margin-top: 1rem;
+}
+.footer-menu-4 ul li a img:hover{
+height: 3rem;
+
+}
+/*================responcive screen at the point of 768==========================*/
+
+
